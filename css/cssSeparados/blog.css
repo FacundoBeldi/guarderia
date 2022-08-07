@@ -1,0 +1,20 @@
+#blog .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#blog h4 {
+    text-align: center;
+}
+
+#blog {
+    background: linear-gradient(#fff, #b8c1ec);
+    margin: 0%;
+}
+
+.carousel-inner {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}

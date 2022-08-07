@@ -1,0 +1,28 @@
+#info {
+    background: #eebbc3;
+    color: #121629;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+#info .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-fotos {
+    margin: 20px;
+}
+
+.info-fotos img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #121629;
+}
+
+.info-fotos h5{
+    font-size: smaller;
+}

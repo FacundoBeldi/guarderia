@@ -1,0 +1,19 @@
+.cubos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #b8c1ec;
+}
+
+.cubos_partes{
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.cubos_partes:hover{
+    background-color: #fffffe;
+    transition: 0.5s;
+}

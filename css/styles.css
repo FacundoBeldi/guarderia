@@ -21,7 +21,7 @@ Color secundario: #eebbc3
 
 header {
     width: 100%;
-    height: 50px;
+    height: 60px;
     background: #b8c1ec;
     color: #121629;
     position: relative;
@@ -46,6 +46,7 @@ h1 img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    padding-top: 3px;
 }
 
 header .contenedor {
@@ -86,5 +87,11 @@ span img {
 @media screen and (max-width: 480px) {
     iframe {
         width: 50%;
+    }
+    h1 p{
+        padding-top: 10px;
+    }
+    #bienvenidos p{
+        font-size: 13px;
     }
 }
